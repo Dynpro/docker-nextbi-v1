@@ -1,3 +1,4 @@
+
 # ---------- Next.js Frontend (Development Mode) ----------
 FROM node:18-alpine
 
