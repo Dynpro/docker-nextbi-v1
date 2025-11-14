@@ -12,7 +12,7 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    allowedHosts: ['nextbi.duckdns.org'],
+    allowedHosts: ['nextbi.dynprocloud.com'],
     proxy: {
       '/api': {
         target: 'http://nextbi-backend:3001',
