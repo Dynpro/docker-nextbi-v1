@@ -49,8 +49,8 @@ export const msalConfig = {
   auth: {
     clientId: '5e301b7f-a5cd-4c6d-8534-5aae66b48203',
     authority: 'https://login.microsoftonline.com/ac68bfba-51b3-481a-be04-41cbda36fdc9',
-    redirectUri: 'https://35.174.81.186:3000/',          // ✅ hardcoded redirect
-    postLogoutRedirectUri: 'https://35.174.81.186:3000/', // ✅ hardcoded logout redirect
+    redirectUri: 'https://35.174.81.186:3000',          // ✅ hardcoded redirect
+    postLogoutRedirectUri: 'https://35.174.81.186:3000', // ✅ hardcoded logout redirect
     navigateToLoginRequestUrl: true,
     protocolMode: ProtocolMode.AAD
   },
